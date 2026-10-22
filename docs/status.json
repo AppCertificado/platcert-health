@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-22T17:30:55.040Z",
+  "generated_at": "2026-10-22T17:46:35.819Z",
   "collector": "local",
   "stale_after_seconds": 900,
   "schedule": "A coleta está agendada a cada 5 minutos. O GitHub Actions não garante o minuto exato.",
@@ -16,7 +16,7 @@
     {
       "failure_class": null,
       "http_status": 200,
-      "response_ms": 1139,
+      "response_ms": 1001,
       "last_seen": null,
       "heartbeat": null,
       "id": "frontend",
@@ -24,13 +24,13 @@
       "area": "producao",
       "scope": "producao",
       "state": "operacional",
-      "checked_at": "2026-10-22T17:30:55.040Z",
-      "detail": "Endereço público respondeu 307 em 1258 ms. Página de login respondeu 200 em 1139 ms."
+      "checked_at": "2026-10-22T17:46:35.819Z",
+      "detail": "Endereço público respondeu 307 em 1055 ms. Página de login respondeu 200 em 1001 ms."
     },
     {
       "failure_class": null,
       "http_status": 200,
-      "response_ms": 1141,
+      "response_ms": 7447,
       "last_seen": null,
       "heartbeat": null,
       "id": "backend",
@@ -38,13 +38,13 @@
       "area": "producao",
       "scope": "producao",
       "state": "operacional",
-      "checked_at": "2026-10-22T17:30:55.040Z",
-      "detail": "A API de saúde respondeu 200 com contrato 1.0, em 1141 ms."
+      "checked_at": "2026-10-22T17:46:35.819Z",
+      "detail": "A API de saúde respondeu 200 com contrato 1.0, em 7447 ms."
     },
     {
       "failure_class": null,
       "http_status": 401,
-      "response_ms": 355,
+      "response_ms": 353,
       "last_seen": null,
       "heartbeat": null,
       "id": "supabase_http",
@@ -52,13 +52,13 @@
       "area": "producao",
       "scope": "producao",
       "state": "operacional",
-      "checked_at": "2026-10-22T17:30:55.040Z",
-      "detail": "A borda HTTP respondeu 401 sem chave, em 355 ms. Esse 401 não prova o PostgreSQL."
+      "checked_at": "2026-10-22T17:46:35.819Z",
+      "detail": "A borda HTTP respondeu 401 sem chave, em 353 ms. Esse 401 não prova o PostgreSQL."
     },
     {
       "failure_class": null,
       "http_status": 401,
-      "response_ms": 1059,
+      "response_ms": 1112,
       "last_seen": null,
       "heartbeat": null,
       "id": "postgres",
@@ -66,8 +66,8 @@
       "area": "producao",
       "scope": "producao",
       "state": "operacional",
-      "checked_at": "2026-10-22T17:30:55.040Z",
-      "detail": "A API consultou a credencial e recusou a prova em 1059 ms. Isso verifica conectividade, não a integridade do banco. O 401 da borda HTTP é outra verificação."
+      "checked_at": "2026-10-22T17:46:35.819Z",
+      "detail": "A API consultou a credencial e recusou a prova em 1112 ms. Isso verifica conectividade, não a integridade do banco. O 401 da borda HTTP é outra verificação."
     },
     {
       "failure_class": null,
@@ -80,7 +80,7 @@
       "area": "producao",
       "scope": "informativo",
       "state": "desconhecido",
-      "checked_at": "2026-10-22T17:30:55.040Z",
+      "checked_at": "2026-10-22T17:46:35.819Z",
       "detail": "Sem papel somente leitura autorizado. Nenhuma sessão direta foi aberta."
     },
     {
@@ -92,7 +92,7 @@
       "area": "local",
       "scope": "informativo",
       "state": "desconhecido",
-      "checked_at": "2026-10-22T17:30:55.040Z",
+      "checked_at": "2026-10-22T17:46:35.819Z",
       "detail": "Sem heartbeat confiável e sem consulta somente leitura autorizada. Um cadastro ou um contato antigo não seria tratado como operação.",
       "id": "satellites",
       "name": "Satellites"
@@ -106,7 +106,7 @@
       "area": "local",
       "scope": "informativo",
       "state": "desconhecido",
-      "checked_at": "2026-10-22T17:30:55.040Z",
+      "checked_at": "2026-10-22T17:46:35.819Z",
       "detail": "Sem heartbeat confiável e sem consulta somente leitura autorizada. Um cadastro ou um contato antigo não seria tratado como operação.",
       "id": "agents",
       "name": "Agentes"
@@ -120,7 +120,7 @@
       "area": "local",
       "scope": "informativo",
       "state": "desconhecido",
-      "checked_at": "2026-10-22T17:30:55.040Z",
+      "checked_at": "2026-10-22T17:46:35.819Z",
       "detail": "Sem heartbeat confiável e sem consulta somente leitura autorizada. Um cadastro ou um contato antigo não seria tratado como operação.",
       "id": "executors",
       "name": "Executores"
@@ -134,7 +134,7 @@
       "area": "local",
       "scope": "informativo",
       "state": "desconhecido",
-      "checked_at": "2026-10-22T17:30:55.040Z",
+      "checked_at": "2026-10-22T17:46:35.819Z",
       "detail": "Sem heartbeat confiável e sem consulta somente leitura autorizada. Um cadastro ou um contato antigo não seria tratado como operação.",
       "id": "local_integrations",
       "name": "Integrações locais"
@@ -150,13 +150,13 @@
       "area": "implantacao",
       "scope": "informativo",
       "state": "operacional",
-      "checked_at": "2026-10-22T17:30:55.040Z",
+      "checked_at": "2026-10-22T17:46:35.819Z",
       "detail": "A Vercel publicou status nos commits recentes da branch principal. A API de deployments do GitHub não é a fonte desta seção."
     }
   ],
   "deployments": {
     "source": "status-do-commit",
-    "checked_at": "2026-10-22T17:30:55.040Z",
+    "checked_at": "2026-10-22T17:46:35.819Z",
     "integration": {
       "failure_class": null,
       "http_status": null,
@@ -168,7 +168,7 @@
       "area": "implantacao",
       "scope": "informativo",
       "state": "operacional",
-      "checked_at": "2026-10-22T17:30:55.040Z",
+      "checked_at": "2026-10-22T17:46:35.819Z",
       "detail": "A Vercel publicou status nos commits recentes da branch principal. A API de deployments do GitHub não é a fonte desta seção."
     },
     "production": {
