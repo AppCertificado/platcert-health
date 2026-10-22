@@ -1,0 +1,9 @@
+{
+  "name": "platcert-health",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "collect": "node collector/collect.mjs docs/status.json"
+  }
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Platcert — Saúde do ambiente</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page">
+    <header class="mast">
+      <p class="eyebrow">Health Check independente</p>
+      <h1>Saúde do ambiente Platcert</h1>
+      <p class="lede">Página pública, sem login. Ela é publicada fora da aplicação e continua disponível se o Platcert na Vercel ficar fora do ar.</p>
+    </header>
+    <div id="notice" class="notice" hidden></div>
+    <div id="app" class="app" aria-live="polite">
+      <p class="loading">Lendo o último relatório…</p>
+    </div>
+    <footer class="foot">
+      <p>A página relê o relatório a cada 60 segundos. A coleta está agendada para cerca de 5 minutos; o GitHub Actions não garante o minuto exato.</p>
+    </footer>
+  </main>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
